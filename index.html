@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blacksmithy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('forge-550622_1280.jpg'); /* Path to your background image */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center calc(65% - 50px); /* Adjusts the image position */
+            color: #ddd;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 75px;
+        }
+        p {
+            font-size: 25px;
+            font-weight: 600;
+            margin: 20px auto;
+            max-width: 800px;
+            margin-top: 0px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .button {
+            width: 80%;
+            max-width: 400px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 25px;
+            border: none;
+            cursor: pointer;
+        }
+        .button:active {
+            background-color: #ffffff;
+        }
+        .button:hover {
+            background-color: rgb(94, 109, 121);
+        }
+        .line {
+            border: 0;
+            height: 1px;
+            background: #000;
+            background-image: linear-gradient(to right, #ccc, #333, #ccc);
+            margin: 20px 0;
+        }
+        .submitted {
+            background-color: #000;
+            opacity: 0.7;
+            border-radius: 25px;
+            padding: 20px;
+            color: #ffffff;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .submitted p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blacksmithy</h1>
+    <p>Blacksmithy is one of the oldest shaping processes used for producing articles where size and accuracy are not important. 
+        The parts are shaped by heating them in an open fire and applying compressive forces using a hammer. 
+        It consists essentially of altering the shape and section of metal by hammering at a temperature of about 980 degrees. 
+        Almost all metal alloys can be forged. The low and medium carbon steels are readily hot forged without difficulty but the 
+        high carbon and alloy steels, wrought iron, copper-base alloys, aluminium alloys, and magnesium alloys are also forged. 
+        Stainless steels, nickel-based superalloys, and titanium are forged especially for aerospace uses.</p>
+
+    <div class="buttons">
+        <button class="button" onclick="location.href='page1.html'">Introduction</button>
+        <button class="button" onclick="location.href='page2.html'">Tools</button>
+        <button class="button" onclick="location.href='page3.html'">Applications</button>
+        <button class="button" onclick="location.href='page4.html'">Forging Operations</button>
+    </div>
+
+    <hr class="line">
+    <div class="submitted">
+        <p style="font-size: 50px;">Submitted by:</p>
+        <p style="font-size: 30px;">G.Lahari Kumari</p>
+        <p style="font-size: 30px;">Kasala Pranaya</p>
+        <p style="font-size: 30px;">Kota Amulya</p>
+    </div>
+</body>
+</html>
